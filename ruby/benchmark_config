@@ -1,0 +1,21 @@
+{
+  "framework": "ruby",
+  "tests": [{
+    "ruby": {
+      "setup_file": "setup_ruby",
+      "json_url": "/json",
+      "db_url": "/db",
+      "query_url": "/db?queries=",
+      "port": 8080,
+      "sort": 20
+    },
+    "jruby": {
+      "setup_file": "setup_jruby",
+      "json_url": "/jruby/json",
+      "db_url": "/jruby/db",
+      "query_url": "/jruby/db?queries=",
+      "port": 8080,
+      "sort": 21
+    }
+  }]
+}
